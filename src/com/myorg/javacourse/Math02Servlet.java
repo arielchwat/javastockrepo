@@ -6,7 +6,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-public class MyNewServlet extends HttpServlet {
+public class Math02Servlet extends HttpServlet {
 	
 	public void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
 		resp.setContentType("text/html");
@@ -27,7 +27,7 @@ public class MyNewServlet extends HttpServlet {
 		
 		String resultStr = line1 + "<br>" + line2 + "<br>" +line3;
 		resp.getWriter().println(resultStr);
-	
+			
 	}
 
 }

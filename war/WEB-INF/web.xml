@@ -5,32 +5,32 @@ xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
 http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	<servlet>
-		<servlet-name>ABChwat</servlet-name>
-		<servlet-class>com.myorg.javacourse.ABChwatServlet</servlet-class>
+		<servlet-name>Math01Servlet</servlet-name>
+		<servlet-class>com.myorg.javacourse.Math01Servlet</servlet-class>
 	</servlet>
 	
 	<servlet-mapping>
-		<servlet-name>ABChwat</servlet-name>
-		<url-pattern>/abchwat</url-pattern>
+		<servlet-name>Math01Servlet</servlet-name>
+		<url-pattern>/math01</url-pattern>
 	</servlet-mapping>
 	
 	<servlet>
-		<servlet-name>MyNewServlet</servlet-name>
-		<servlet-class>com.myorg.javacourse.MyNewServlet</servlet-class>
+		<servlet-name>Math02Servlet</servlet-name>
+		<servlet-class>com.myorg.javacourse.Math02Servlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
-		<servlet-name>MyNewServlet</servlet-name>
-		<url-pattern>/mynewservlet</url-pattern>
+		<servlet-name>Math02Servlet</servlet-name>
+		<url-pattern>/math02</url-pattern>
 	</servlet-mapping>
 	
 		<servlet>
-		<servlet-name>StockServlet</servlet-name>
-		<servlet-class>com.myorg.javacourse.StockServlet</servlet-class>
+		<servlet-name>StockDetailsServlet</servlet-name>
+		<servlet-class>com.myorg.javacourse.StockDetailsServlet</servlet-class>
 	</servlet>
 	
 	<servlet-mapping>
-		<servlet-name>StockServlet</servlet-name>
-		<url-pattern>/stockservlet</url-pattern>
+		<servlet-name>StockDetailsServlet</servlet-name>
+		<url-pattern>/stockdetails</url-pattern>
 	</servlet-mapping>
 	
 	<welcome-file-list>
